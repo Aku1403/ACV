@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Akanksha Sharma </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/35d552a5f9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web/App Dev-UI/UX Designer</p>
+            <h1>Hi , I am <span>Akanksha</span> <br>Sharma from India</h1>
+        </div>
+    </div>
+</div>
+<!---about-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm Akanksha , a second year student eager for a software internship to refine my coding prowess. With hackathon & startup experience, I excel in teamwork. I am committed to professional and personal growth, aiming to contribute meaningfully to tech projects while fostering innovation & collaboration.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces<br>logo design<br>Wireframe moodboard</li>
+                        <li><span>Web Development</span><br>Web/App Development using HTML,CSS,REACT.JS</li>
+                        <li><span>App Development</span><br>Building Android/IOS apps using Flutter</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022-Current</span><br>UI/UX Design at prosgro:branding agency<br>Web Design at <a href="https://www.prosgro.com/"></a><br>ColLabs - Hackathon May 2023</li>
+                        <li><span>Current(2 Months)</span><br>Building Android/IOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>10th Grade-98%(CBSE Board)</span>Maxfort School Dwarka, New Delhi 2019</li>
+                        <li><span>12th Grade-92%(CBSE Board)</span>Maxfort School Dwarka, New Delhi 2021</li>
+                        <li><span>Integrated Mtech CSE</span>Vellore Institute of Technology,Vellore 2022-2027</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----services------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Creating visually appealing and user-friendly websites tailored to the client's needs and brand identity.</p>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Designing, building, and maintaining applications.</p>
+            </div>
+            <div>
+                <i class="fa-regular fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Designing the visual layout, interactive elements, and overall look and feel of the product to ensure it is visually appealing and easy to navigate.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------portfolio-------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work_1.png">
+                <div class="layer">
+                    <h3>Amazon Clone</h3>
+                    <p>A small look alike of the shopping website Amazon.</p>
+                    <a href="https://aku1403.github.io/amazon-clone/"><i class="fa-solid fa-arrow-up-right-from-square"></i>Amazon Clone</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work_2.png">
+                <div class="layer">
+                    <h3>48 Hours Hackathon</h3>
+                    <p>Developed a web portal for connecting students and faculties online.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work_3.png">
+                <div class="layer">
+                    <h3>Netflix Clone</h3>
+                    <p>A small look alike of the streaming website Netflix.</p>
+                    <a href="https://aku1403.github.io/Netflix-clone/"><i class="fa-solid fa-arrow-up-right-from-square"></i>Netflix Clone</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work_4.png">
+                <div class="layer">
+                    <h3>JS Calculator</h3>
+                    <p>A functioning Calculator using HTML ,CSS and js .</p>
+                    <a href="https://aku1403.github.io/JS-Calculator/"><i class="fa-solid fa-arrow-up-right-from-square"></i>Calculator</a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work_5.png">
+                <div class="layer">
+                    <h3>Login Form</h3>
+                    <p>Animated login form web page using HTML,CSS & Javascript.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <i class="fa-solid fa-link"></i>
+                <a href="https://www.figma.com/file/RwACzJbcpuCeJiqChsrd2b/Concert?type=design&node-id=0%3A1&mode=design&t=aJ3gnNbW7yHUlSQV-1">Concert</a><br>
+                <i class="fa-solid fa-link"></i>
+                <a href=https://www.figma.com/file/usVfRu1go5JRttzp0z0KJY/Prosgro?type=design&node-id=0%3A1&mode=design&t=Frhen8AcdR9yP9uU-1">Prosgro</a><br>
+                <i class="fa-solid fa-link"></i>
+                <a href="https://www.figma.com/file/TNwSBjvD7z3ydvltL6UMLY/White-Art?type=design&node-id=0%3A1&mode=design&t=Qi8Ihma5BdDgNEyZ-1">White Art</a><br>
+                <i class="fa-solid fa-link"></i>
+                <a href="https://www.figma.com/file/8mnBtLbjYuD72oxFZFCsf6/Greenary-World?type=design&node-id=0%3A1&mode=design&t=B7BkPsszlNyTX2Ce-1">Greenary World</a><br>
+                <i class="fa-solid fa-link"></i>
+                <a href="https://www.figma.com/file/xSbpkviq6kpgefZ8Z90bsu/Stock-Market?type=design&node-id=0%3A1&mode=design&t=KeSeywzp1Wq9tnkp-1">Stock Market</a><br>
+                <i class="fa-solid fa-link"></i>
+                <a href="https://www.figma.com/file/TSOhjw3d3LvXM5BJDgjKII/Namma-Metro-App-Redesign?type=design&node-id=0%3A1&mode=design&t=sPMdXa6OAdtov1rX-1">Namma Metro App Redesign</a><br>
+                <i class="fa-solid fa-link"></i>
+                <a href="https://www.figma.com/file/K9GLmpPEUiYwww0VDw9TaU/InfusionPost?type=design&node-id=0-1&mode=design&t=zy5Tgx1wFQe522x1-0 ">InfusionPost</a><br>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!---------------contact-------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> sharma.akanksha14u@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 9650250956</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/i.am_akanksha/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/Akanksha Sharma"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Resume .pdf" download class="btn btn2">Download CV</a>               
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Akanksha. Made <i class="fa-solid fa-heart"></i> by Akanksha Sharma.</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzaaXFI2AqHZ7ioHPEpUAn83SNs0kONsVvxVtb2TvkY2Bbl_c6AJiKpXQX7oNwFzlCn/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.rese
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
